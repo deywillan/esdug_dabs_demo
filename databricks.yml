@@ -1,0 +1,14 @@
+bundle:
+  name: esdug_dabs_demo
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-981245df-3bdd.cloud.databricks.com
+
+  prod:
+    mode: production
+    workspace:
+      host: https://dbc-981245df-3bdd.cloud.databricks.com
